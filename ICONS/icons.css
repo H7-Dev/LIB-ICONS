@@ -1,0 +1,51 @@
+/* icons.css */
+
+/* Defina a classe base para os ícones */
+.icon {
+    display: inline-block;
+    width: 24px; /* Ajuste o tamanho conforme necessário */
+    height: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  /* Defina as classes para cada ícone usando a propriedade background-image */
+  .icon-heart {
+    background-image: url(./01.00-heart-favorito.svg);
+  }
+  
+  .icon-star {
+    background-image: url(icons/star.svg);
+  }
+  
+
+/* Adicione mais classes para outros ícones, se necessário */
+
+/* Defina as classes para os tamanhos dos ícones */
+.icon-xs {
+  width: 16px; /* Tamanho extra pequeno */
+  height: 16px;
+}
+
+.icon-sm {
+  width: 24px; /* Tamanho pequeno */
+  height: 24px;
+}
+
+.icon-md {
+  width: 32px; /* Tamanho médio */
+  height: 32px;
+}
+
+.icon-lg {
+  width: 48px; /* Tamanho grande */
+  height: 48px;
+}
+
+.icon-xl {
+  width: 64px; /* Tamanho extra grande */
+  height: 64px;
+}
+
+  /* Adicione mais classes para outros ícones, se necessário */
+  
